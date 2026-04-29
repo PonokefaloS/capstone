@@ -5,6 +5,10 @@ body{
   font-size: 1.5rem;
 }
 
+.laptop-img{
+  width: 100%;
+}
+
 .title, a{
   color: #E6D28C;
   font-family: "Poppins", sans-serif;
