@@ -62,7 +62,6 @@ p{
   line-height: 1.6;
   padding: 0 15px;
   min-height: 120px;
-  max-width: 300px;
 }
 
 .container{
@@ -110,4 +109,10 @@ p{
   gap: 100px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+@media (max-width: 600px){
+  .text{
+    max-width: 90%;
+  }
 }
